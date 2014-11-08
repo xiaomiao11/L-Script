@@ -2,6 +2,8 @@
               L# Chinese localization
 一一一一一一一一一一一一一一一一一一一一一一一一一一
 
+☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
+
 ☆ヾ  FuckingAwesomeLeeSin  by  Fluxy        盲僧
 
 ☆ヾ  KurisuRiven  by  Kurisu                瑞文
