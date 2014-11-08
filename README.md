@@ -1,6 +1,7 @@
                      二狗汉化系列
               L# Chinese localization
 一一一一一一一一一一一一一一一一一一一一一一一一一一
+
 ☆ヾ  FuckingAwesomeLeeSin  by  Fluxy        盲僧
 
 ☆ヾ  KurisuRiven  by  Kurisu                瑞文
