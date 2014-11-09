@@ -2,6 +2,8 @@
               L# Chinese localization
 一一一一一一一一一一一一一一一一一一一一一一一一一一
 
+☆ヾ  SFXUtility   by  Lizzaran              意识(活化剂，升级技能，饰品，跟踪器，眼位等）
+
 ☆ヾ  Ze-D is Back  by jackisback            劫
  
 ☆ヾ  SkinHax  by  hsalzuth                  换肤
