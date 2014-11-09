@@ -115,15 +115,15 @@ namespace Syndra
 
             //Farming menu:
             Config.AddSubMenu(new Menu("娓呭叺", "Farm"));
-            Config.SubMenu("Farm").AddItem(new MenuItem("UseQFarm", "浣跨敤 Q").SetValue(new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣?" }, 2)));
+            Config.SubMenu("Farm").AddItem(new MenuItem("UseQFarm", "浣跨敤 Q").SetValue(new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣渱" }, 2)));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("UseWFarm", "浣跨敤 W").SetValue(
-                        new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣?" }, 1)));
+                        new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣渱" }, 1)));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("UseEFarm", "浣跨敤 E").SetValue(
-                        new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣?" }, 3)));
+                        new StringList(new[] { "娣峰悎", "娓呭叺", "娣峰悎+娓呯嚎", "涓嶆搷浣渱" }, 3)));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("FreezeActive", "娣峰悎!").SetValue(
@@ -150,9 +150,9 @@ namespace Syndra
             Config.SubMenu("Misc").AddItem(new MenuItem("packet", "浣跨敤灏佸寘").SetValue(true));
             Config.SubMenu("Misc")
                 .AddItem(
-                    new MenuItem("CastQE", "QE瀵归紶鏍囨柟鐩?").SetValue(new KeyBind("T".ToCharArray()[0],
+                    new MenuItem("CastQE", "鎵嬪姩QE浜岃繛").SetValue(new KeyBind("T".ToCharArray()[0],
                         KeyBindType.Press)));
-            Config.SubMenu("Misc").AddSubMenu(new Menu("涓嶄娇鐢?", "DontUlt"));
+            Config.SubMenu("Misc").AddSubMenu(new Menu("涓嶈渚攽", "DontUlt"));
 
             foreach (var enemy in ObjectManager.Get<Obj_AI_Hero>().Where(enemy => enemy.Team != Player.Team))
                 Config.SubMenu("Misc")
@@ -192,7 +192,7 @@ namespace Syndra
             AntiGapcloser.OnEnemyGapcloser += AntiGapcloser_OnEnemyGapcloser;
             Orbwalking.BeforeAttack += Orbwalking_BeforeAttack;
             Game.PrintChat("If it fails to use W, Please go to Appdata -> Roaming -> Leaguesharp folder and clear it and test again before reporting!");
-            Game.PrintChat(ChampionName + " Loaded! --- By esk0r,姹夊寲by浜岀嫍!QQ:654955321");
+            Game.PrintChat(ChampionName + "--- By esk0r 鍔犺浇鎴愬姛!姹夊寲by浜岀嫍!QQ缇361630847");
             
         }
         public static void AntiGapcloser_OnEnemyGapcloser(ActiveGapcloser gapcloser)

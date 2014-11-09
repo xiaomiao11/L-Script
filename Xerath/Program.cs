@@ -131,7 +131,7 @@ namespace Xerath
             //Misc
             Config.AddSubMenu(new Menu("R璁剧疆", "R"));
             Config.SubMenu("R").AddItem(new MenuItem("EnableRUsage", "鑷姩浣跨敤R").SetValue(true));
-            Config.SubMenu("R").AddItem(new MenuItem("rMode", "妯″紡").SetValue(new StringList(new[] { "姝ｅ父", "鑷畾涔夊欢杩?", "浼樺厛" })));
+            Config.SubMenu("R").AddItem(new MenuItem("rMode", "妯″紡").SetValue(new StringList(new[] { "姝ｅ父", "鑷畾涔夊欢杩焲", "浼樺厛" })));
             Config.SubMenu("R").AddItem(new MenuItem("rModeKey", "浼樺厛R鎸夐敭").SetValue(new KeyBind("T".ToCharArray()[0], KeyBindType.Press)));
             Config.SubMenu("R").AddSubMenu(new Menu("Custom delays", "Custom delays"));
             for (int i = 1; i <= 3; i++)
@@ -150,19 +150,19 @@ namespace Xerath
                         new KeyBind(Config.Item("Farm").GetValue<KeyBind>().Key, KeyBindType.Press)));
             Config.SubMenu("Harass")
                 .AddItem(
-                    new MenuItem("HarassActiveT", "鑷姩娑堣€?!").SetValue(new KeyBind("Y".ToCharArray()[0],
+                    new MenuItem("HarassActiveT", "鑷姩娑堣€梶!").SetValue(new KeyBind("Y".ToCharArray()[0],
                         KeyBindType.Toggle)));
 
             //Farming menu:
-            Config.AddSubMenu(new Menu("娓呭叺", "Farm"));
+            Config.AddSubMenu(new Menu("璧氶挶", "Farm"));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("UseQFarm", "浣跨敤 Q").SetValue(
-                        new StringList(new[] { "娣峰悎", "娓呯嚎", "娣峰悎+娓呯嚎", "涓嶆搷浣?" }, 2)));
+                        new StringList(new[] { "娣峰悎", "娓呯嚎", "娣峰悎+娓呯嚎", "涓嶆搷浣渱" }, 2)));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("UseWFarm", "浣跨敤 W").SetValue(
-                        new StringList(new[] { "娣峰悎", "娓呯嚎", "娣峰悎+娓呯嚎", "涓嶆搷浣?" }, 1)));
+                        new StringList(new[] { "娣峰悎", "娓呯嚎", "娣峰悎+娓呯嚎", "涓嶆搷浣渱" }, 1)));
             Config.SubMenu("Farm")
                 .AddItem(
                     new MenuItem("FreezeActive", "娣峰悎!").SetValue(
@@ -184,11 +184,11 @@ namespace Xerath
             //Misc
             Config.AddSubMenu(new Menu("鏉傞」", "Misc"));
             Config.SubMenu("Misc").AddItem(new MenuItem("InterruptSpells", "涓柇娉曟湳").SetValue(true));
-            Config.SubMenu("Misc").AddItem(new MenuItem("AutoEGC", "鑷姩E闃茬獊鑴?").SetValue(true));
+            Config.SubMenu("Misc").AddItem(new MenuItem("AutoEGC", "鑷姩E闃茬獊鑴竱").SetValue(true));
 
 
             //Damage after combo:
-            var dmgAfterComboItem = new MenuItem("DamageAfterR", "鏄剧ず3娆鍚庝激瀹?").SetValue(true);
+            var dmgAfterComboItem = new MenuItem("DamageAfterR", "鏄剧ず3娆鍚庝激瀹硘").SetValue(true);
             Utility.HpBarDamageIndicator.DamageToUnit += hero => (float)Player.GetSpellDamage(hero, SpellSlot.R) * 3;
             Utility.HpBarDamageIndicator.Enabled = dmgAfterComboItem.GetValue<bool>();
             dmgAfterComboItem.ValueChanged += delegate(object sender, OnValueChangeEventArgs eventArgs)
@@ -197,7 +197,7 @@ namespace Xerath
             };
 
             //Drawings menu:
-            Config.AddSubMenu(new Menu("鑼冨洿閫夐」", "Drawings"));
+            Config.AddSubMenu(new Menu("鑼冨洿缁樺埗", "Drawings"));
             Config.SubMenu("Drawings")
                 .AddItem(
                     new MenuItem("QRange", "Q 鑼冨洿").SetValue(new Circle(true, Color.FromArgb(150, Color.DodgerBlue))));
@@ -226,7 +226,7 @@ namespace Xerath
             AntiGapcloser.OnEnemyGapcloser += AntiGapcloser_OnEnemyGapcloser;
             Obj_AI_Hero.OnProcessSpellCast += Obj_AI_Hero_OnProcessSpellCast;
             Game.OnWndProc += Game_OnWndProc;
-            Game.PrintChat(ChampionName + " 鍔犺浇鎴愬姛!姹夊寲by浜岀嫍!QQ:654955321");
+            Game.PrintChat(ChampionName + " 鍔犺浇鎴愬姛!姹夊寲by浜岀嫍!QQ缇361630847");
             Orbwalking.BeforeAttack += OrbwalkingOnBeforeAttack;
             Game.OnGameSendPacket += GameOnOnGameSendPacket;
         }
