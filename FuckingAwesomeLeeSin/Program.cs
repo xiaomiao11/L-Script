@@ -838,3 +838,113 @@ namespace FuckingAwesomeLeeSin
         }
     }
 }
+            //Harass
+            _config.AddSubMenu(new Menu("楠氭壈", "Harass"));
+            _config.SubMenu("Harass").AddItem(new MenuItem("UseItemsharass", "浣跨敤鎻愪簹椹壒/涔濆ご铔噟")).SetValue(true);
+            _config.SubMenu("Harass").AddItem(new MenuItem("UseWH", "浣跨敤 W")).SetValue(true);
+            _config.SubMenu("Harass")
+                .AddItem(
+                    new MenuItem("ActiveHarass", "楠氭壈!").SetValue(new KeyBind("C".ToCharArray()[0], KeyBindType.Press)));
+
+            //items
+            _config.AddSubMenu(new Menu("i鐗╁搧浣跨敤", "items"));
+            _config.SubMenu("items").AddSubMenu(new Menu("Offensive", "杩涙敾鐗╁搧"));
+            _config.SubMenu("items").SubMenu("Offensive").AddItem(new MenuItem("Youmuu", "浣跨敤 骞芥ⅵ")).SetValue(true);
+            _config.SubMenu("items").SubMenu("Offensive").AddItem(new MenuItem("Tiamat", "浣跨敤 鎻愪簹椹壒")).SetValue(true);
+            _config.SubMenu("items").SubMenu("Offensive").AddItem(new MenuItem("Hydra", "浣跨敤 涔濆ご铔噟")).SetValue(true);
+            _config.SubMenu("items").SubMenu("Offensive").AddItem(new MenuItem("Bilge", "浣跨敤 灏忓集鍒€")).SetValue(true);
+            _config.SubMenu("items")
+                .SubMenu("Offensive")
+                .AddItem(new MenuItem("BilgeEnemyhp", "浣跨敤寮垁锛堟晫鏂硅閲忥級<").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("items")
+                .SubMenu("Offensive")
+                .AddItem(new MenuItem("Bilgemyhp", "浣跨敤寮垁锛堣嚜宸辫閲忥級< ").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("items").SubMenu("Offensive").AddItem(new MenuItem("Blade", "浣跨敤 鐮磋触")).SetValue(true);
+            _config.SubMenu("items")
+                .SubMenu("Offensive")
+                .AddItem(new MenuItem("BladeEnemyhp", "浣跨敤鐮磋触锛堣嚜宸辫閲忥級<").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("items")
+                .SubMenu("Offensive")
+                .AddItem(new MenuItem("Blademyhp", "浣跨敤鐮磋触锛堟晫鏂硅閲忥級<").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("items").AddSubMenu(new Menu("Deffensive", "闃插尽鐗╁搧"));
+            _config.SubMenu("items")
+                .SubMenu("Deffensive")
+                .AddItem(new MenuItem("Omen", "浣跨敤鍏伴】涔嬪厗"))
+                .SetValue(true);
+            _config.SubMenu("items")
+                .SubMenu("Deffensive")
+                .AddItem(new MenuItem("Omenenemys", "鍏扮浘浣跨敤浜烘暟>").SetValue(new Slider(2, 1, 5)));
+            _config.SubMenu("items")
+                .SubMenu("Deffensive")
+                .AddItem(new MenuItem("lotis", "浣跨敤閽㈤搧鐑堥槼涔嬪專"))
+                .SetValue(true);
+            _config.SubMenu("items")
+                .SubMenu("Deffensive")
+                .AddItem(new MenuItem("lotisminhp", "浣跨敤鐑堥槼锛堟垜鏂硅閲忥級<").SetValue(new Slider(35, 1, 100)));
+
+            //Farm
+            _config.AddSubMenu(new Menu("璧氶挶", "Farm"));
+            _config.SubMenu("Farm").AddSubMenu(new Menu("LaneFarm", "娓呯嚎"));
+            _config.SubMenu("Farm")
+                .SubMenu("LaneFarm")
+                .AddItem(new MenuItem("UseItemslane", "浣跨敤鎻愪簹椹壒/涔濆ご铔噟"))
+                .SetValue(true);
+            _config.SubMenu("Farm").SubMenu("LaneFarm").AddItem(new MenuItem("UseQL", "Q 娓呯嚎")).SetValue(true);
+            _config.SubMenu("Farm").SubMenu("LaneFarm").AddItem(new MenuItem("UseWL", "W 娓呯嚎")).SetValue(true);
+            _config.SubMenu("Farm").SubMenu("LaneFarm").AddItem(new MenuItem("UseEL", "E 娓呯嚎")).SetValue(true);
+            _config.SubMenu("Farm")
+                .SubMenu("LaneFarm")
+                .AddItem(new MenuItem("Energylane", "鎵ц娓呯嚎锛堣兘閲忥級>").SetValue(new Slider(45, 1, 100)));
+            _config.SubMenu("Farm")
+                .SubMenu("LaneFarm")
+                .AddItem(
+                    new MenuItem("Activelane", "娓呯嚎閿綅!").SetValue(new KeyBind("V".ToCharArray()[0], KeyBindType.Press)));
+
+            _config.SubMenu("Farm").AddSubMenu(new Menu("LastHit", "琛ュ垁"));
+            _config.SubMenu("Farm").SubMenu("LastHit").AddItem(new MenuItem("UseQLH", "Q 琛ュ垁")).SetValue(true);
+            _config.SubMenu("Farm").SubMenu("LastHit").AddItem(new MenuItem("UseELH", "E 琛ュ垁")).SetValue(true);
+            _config.SubMenu("Farm")
+                .SubMenu("LastHit")
+                .AddItem(new MenuItem("Energylast", "鎵ц琛ュ垁锛堣兘閲忥級>").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("Farm")
+                .SubMenu("LastHit")
+                .AddItem(
+                    new MenuItem("ActiveLast", "琛ュ垁閿綅!").SetValue(new KeyBind("X".ToCharArray()[0], KeyBindType.Press)));
+
+            _config.SubMenu("Farm").AddSubMenu(new Menu("Jungle", "娓呴噹"));
+            _config.SubMenu("Farm")
+                .SubMenu("Jungle")
+                .AddItem(new MenuItem("UseItemsjungle", "浣跨敤鎻愪簹椹壒/涔濆ご铔噟"))
+                .SetValue(true);
+            _config.SubMenu("Farm").SubMenu("Jungle").AddItem(new MenuItem("UseQJ", "Q 娓呴噹")).SetValue(true);
+            _config.SubMenu("Farm").SubMenu("Jungle").AddItem(new MenuItem("UseWJ", "W 娓呴噹")).SetValue(true);
+            _config.SubMenu("Farm").SubMenu("Jungle").AddItem(new MenuItem("UseEJ", "E 娓呴噹")).SetValue(true);
+            _config.SubMenu("Farm")
+                .SubMenu("Jungle")
+                .AddItem(new MenuItem("Energyjungle", "鎵ц娓呯嚎锛堣兘閲忥級>").SetValue(new Slider(85, 1, 100)));
+            _config.SubMenu("Farm")
+                .SubMenu("Jungle")
+                .AddItem(
+                    new MenuItem("Activejungle", "鎵ц娓呯嚎!").SetValue(new KeyBind("V".ToCharArray()[0], KeyBindType.Press)));
+
+            //Misc
+            _config.AddSubMenu(new Menu("鏉傞」", "Misc"));
+            _config.SubMenu("Misc").AddItem(new MenuItem("UseIgnitekill", "浣跨敤鐐圭噧鍑绘潃")).SetValue(true);
+            _config.SubMenu("Misc").AddItem(new MenuItem("UseQM", "浣跨敤Q鍑绘潃")).SetValue(true);
+            _config.SubMenu("Misc").AddItem(new MenuItem("UseEM", "浣跨敤E鍑绘潃")).SetValue(true);
+
+            //Drawings
+            _config.AddSubMenu(new Menu("鑼冨洿", "Drawings"));
+            _config.SubMenu("Drawings").AddItem(new MenuItem("DrawQ", "鑼冨洿 Q")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("DrawE", "鑼冨洿 E")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("DrawQW", "鏈€浣抽獨鎵拌寖鍥磡")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("DrawR", "鑼冨洿 R")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("shadowd", "褰卞瓙鐨勪綅缃畖")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("damagetest", "浼ゅ鏁板€紎")).SetValue(true);
+            _config.SubMenu("Drawings").AddItem(new MenuItem("CircleLag", "褰卞瓙杩斿洖浣嶇疆").SetValue(true));
+            _config.SubMenu("Drawings")
+                .AddItem(new MenuItem("CircleQuality", "钖剕绾垮湀").SetValue(new Slider(100, 100, 10)));
+            _config.SubMenu("Drawings")
+                .AddItem(new MenuItem("CircleThickness", "鍘殀绾垮湀").SetValue(new Slider(1, 10, 1)));
+            _config.AddToMainMenu();
+            Game.PrintChat("<font color='#881df2'>Zed by Diabaths & jackisback</font> 鍔犺浇鎴愬姛!姹夊寲by浜岀嫍!QQ缇361630847.");
