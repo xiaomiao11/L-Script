@@ -66,7 +66,7 @@ namespace Sion
 
             Config.AddToMainMenu();
 
-            Game.PrintChat("Sion Loaded!姹夊寲by浜岀嫍!QQ:654955321");
+            Game.PrintChat("Sion Loaded!鍔犺浇鎴愬姛!姹夊寲by浜岀嫍!QQ缇361630847");
             Game.OnGameUpdate += Game_OnGameUpdate;
             Game.OnGameProcessPacket += Game_OnGameProcessPacket;
             Drawing.OnDraw += Drawing_OnDraw;
