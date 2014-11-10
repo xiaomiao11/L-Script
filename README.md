@@ -5,8 +5,6 @@
 ☆ヾ  SFXUtility   by  Lizzaran              意识(活化剂，升级技能，饰品，跟踪器，眼位等）
 
 ☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
- 
-☆ヾ  SkinHax  by  hsalzuth                  换肤
 
 ☆ヾ  Ze-D is Back  by jackisback            劫
 
