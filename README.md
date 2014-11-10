@@ -4,6 +4,8 @@
 
 ☆ヾ  Evade  by  Esk0r                       技能躲避
 
+☆ヾ  Killability by h3h3                    击杀提示
+
 ☆ヾ  SFXUtility   by  Lizzaran              意识(活化剂，升级技能，饰品，跟踪器，眼位等）
 
 ☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
