@@ -10,6 +10,8 @@
 
 ☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
 
+☆ヾ  Marksman  by Kortatu and legacy  ADC合集
+
 ☆ヾ  Ze-D is Back  by jackisback            劫
 
 ☆ヾ  JayceSharpV2  by DeTuKs                杰斯     
