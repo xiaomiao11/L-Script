@@ -20,6 +20,8 @@
 
 ☆ヾ  KurisuRiven  by  Kurisu                瑞文
 
+☆ヾ  KurisuNidalee  by  Kurisu              豹女
+
 ☆ヾ  Sion  by  TC-Crew                      塞恩
 
 ☆ヾ  SyndraMod  by  xSalice               辛德拉
