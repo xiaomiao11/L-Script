@@ -22,6 +22,10 @@
 
 ☆ヾ  KurisuNidalee  by  Kurisu              豹女
 
+☆ヾ  KurisuMorgana  by  Kurisu              莫甘娜
+
+☆ヾ  KurisuBlitz  by  Kurisu                机器人
+
 ☆ヾ  Sion  by  TC-Crew                      塞恩
 
 ☆ヾ  SyndraMod  by  xSalice               辛德拉
