@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\SAwareness-master 神意识\obj\Release\SAwareness.Properties.Resources.resources
+C:\Users\Administrator\Desktop\SAwareness-master 神意识\obj\Release\SAwareness 神意识.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\SAwareness-master 神意识\obj\Release\SAwareness 神意识.csprojResolveAssemblyReference.cache

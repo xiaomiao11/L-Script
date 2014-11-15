@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Fakes Include="Fakes\Evade.fakes" />
+    <None Include="Evade.fakes" />
     <None Include="Resources\CHAMP\Aatrox.dds" />
   </ItemGroup>
   <ItemGroup>
@@ -3710,6 +3711,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SPELLS\luxlightstriketoggle.dds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Evade.dll" />
+    <Content Include="LeagueSharp.Common.dll" />
+    <Content Include="LeagueSharp.dll" />
+    <Content Include="SharpDX.Direct3D9.dll" />
+    <Content Include="SharpDX.dll" />
+    <Content Include="SharpDX.Toolkit.dll" />
+    <Content Include="SharpDX.Toolkit.Graphics.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

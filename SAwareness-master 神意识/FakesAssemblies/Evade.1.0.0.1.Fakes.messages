@@ -1,0 +1,46 @@
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.CollisionObjectTypes 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.FastPredResult 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DetectedCollision 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Collision 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Config 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SpellValidTargets 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.EvadeSpellData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DashData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.BlinkData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.InvulnerabilityData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.ShieldData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.MoveBuffData 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.EvadeSpellDatabase 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Geometry 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Program 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillShotType 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DetectionType 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SafePathResult 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.FoundIntersection 生成存根: 类型是一个值类型。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillshotDetector 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SpellDatabase 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Utils 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SpellList`1 生成存根: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Evader 生成存根: 类型已密封。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.CollisionObjectTypes 生成填充码: 类型是一个枚举。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.FastPredResult 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DetectedCollision 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Collision 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Config 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SpellValidTargets 生成填充码: 类型是一个枚举。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.EvadeSpellData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DashData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.BlinkData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.InvulnerabilityData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.ShieldData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.MoveBuffData 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.EvadeSpellDatabase 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Geometry 生成填充码: 未能解析程序集“clipper_library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”。是否缺少程序集引用?。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.Program 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillShotType 生成填充码: 类型是一个枚举。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.DetectionType 生成填充码: 类型是一个枚举。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillshotDetector+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillshotDetector+<>c__DisplayClass5 生成填充码: 类型不受支持，因为存在内部限制。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillshotDetector+OnDeleteMissileH 生成填充码: 类型是一个委托。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SkillshotDetector+OnDetectSkillshotH 生成填充码: 类型是一个委托。
+E:\三国霸图\SAwareness-master 神意识\Fakes\Evade.fakes : warning : 无法为 Evade.SpellList`1 生成填充码: 类型对 exported or assembly(Evade.1.0.0.1.Fakes) 不可见。
