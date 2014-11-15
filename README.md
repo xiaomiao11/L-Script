@@ -42,6 +42,14 @@
 
 ¡î©d  Ryze  by  Esk0r                        Èð×È
 
+¡î©d  Karma  by  Esk0r                      ¿¨¶ûÂê
+
+¡î©d  Twisted Fate  by  Esk0r                ¿¨ÅÆ
+
+¡î©d  Ziggs  by  Esk0r                      Õ¨µ¯ÈË
+
+¡î©d  Velkoz  by  Esk0r                     Î¬¿Ë×È
+
 ¡î©d  VayneHunter 2.03 By DZ191              Þ±¶÷
 
 ¡î©d  SKO Rengar V2  by SKO                 Ê¨×Ó¹·
