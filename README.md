@@ -2,6 +2,8 @@
               L# Chinese localization
 一一一一一一一一一一一一一一一一一一一一一一一一一一
 
+☆ヾ  SAwareness-master  by  Screeder        神意识
+
 ☆ヾ  Evade  by  Esk0r                       技能躲避
 
 ☆ヾ  Killability by h3h3                    击杀提示
