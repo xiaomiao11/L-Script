@@ -14,7 +14,9 @@
 
 ☆ヾ  Ze-D is Back  by jackisback            劫
 
-☆ヾ  JayceSharpV2  by DeTuKs                杰斯     
+☆ヾ  JayceSharpV2  by DeTuKs                杰斯  
+
+☆ヾ  RivenSharpV2  by DeTuKs                瑞文   
 
 ☆ヾ  FuckingAwesomeLeeSin  by  Fluxy        盲僧
 
@@ -30,6 +32,10 @@
 
 ☆ヾ  SyndraMod  by  xSalice               辛德拉
 
+☆ヾ  BlitzcrankGrabDAT  by  xSalice       机器人
+
+☆ヾ  KatarinaKittyKill  by  xSalice      卡特琳娜 
+ 
 ☆ヾ  Xerath  by  Esk0r                    泽拉斯
 
 ☆ヾ  Ryze  by  Esk0r                        瑞兹
