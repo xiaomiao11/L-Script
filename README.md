@@ -36,7 +36,9 @@
 
 ☆ヾ  BlitzcrankGrabDAT  by  xSalice       机器人
 
-☆ヾ  KatarinaKittyKill  by  xSalice      卡特琳娜 
+☆ヾ  KatarinaKittyKill  by  xSalice      卡特琳娜
+
+☆ヾ  OriannaWreckingBalls 发条 by  xSalice  发条
  
 ☆ヾ  Xerath  by  Esk0r                    泽拉斯
 
