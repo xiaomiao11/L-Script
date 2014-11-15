@@ -38,7 +38,7 @@
 
 ☆ヾ  KatarinaKittyKill  by  xSalice      卡特琳娜
 
-☆ヾ  OriannaWreckingBalls 发条 by  xSalice  发条
+☆ヾ  OriannaWreckingBalls  by  xSalice      发条
  
 ☆ヾ  Xerath  by  Esk0r                    泽拉斯
 
