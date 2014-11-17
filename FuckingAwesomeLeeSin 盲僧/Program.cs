@@ -85,14 +85,14 @@ namespace FuckingAwesomeLeeSin
             Menu.AddSubMenu(ts);
             //Combo menu
             Menu.AddSubMenu(new Menu("杩炴嫑", "Combo"));
-            Menu.SubMenu("Combo").AddItem(new MenuItem("useQ", "浣跨敤 Q?").SetValue(true));
-            Menu.SubMenu("Combo").AddItem(new MenuItem("useQ2", "浣跨敤 Q2?").SetValue(true));
+            Menu.SubMenu("Combo").AddItem(new MenuItem("useQ", "浣跨敤 Q").SetValue(true));
+            Menu.SubMenu("Combo").AddItem(new MenuItem("useQ2", "浣跨敤 Q2").SetValue(true));
             Menu.SubMenu("Combo").AddItem(new MenuItem("useW", "杩炴嫑浣跨敤椤虹溂").SetValue(true));
             Menu.SubMenu("Combo").AddItem(new MenuItem("dsjk", "椤虹溂 濡傛灉: "));
             Menu.SubMenu("Combo").AddItem(new MenuItem("wMode", "> AA 鑼冨洿||> Q 鑼冨洿").SetValue(true));
-            Menu.SubMenu("Combo").AddItem(new MenuItem("useE", "浣跨敤 E?").SetValue(true));
-            Menu.SubMenu("Combo").AddItem(new MenuItem("useR", "浣跨敤 R?").SetValue(false));
-            Menu.SubMenu("Combo").AddItem(new MenuItem("ksR", "鍑绘潃浣跨敤R?").SetValue(false));
+            Menu.SubMenu("Combo").AddItem(new MenuItem("useE", "浣跨敤 E").SetValue(true));
+            Menu.SubMenu("Combo").AddItem(new MenuItem("useR", "浣跨敤 R").SetValue(false));
+            Menu.SubMenu("Combo").AddItem(new MenuItem("ksR", "鍑绘潃浣跨敤R").SetValue(false));
             Menu.SubMenu("Combo").AddItem(new MenuItem("starCombo", "寮€濮嬭繛鎷泑").SetValue(new KeyBind("T".ToCharArray()[0], KeyBindType.Press)));
             Menu.SubMenu("Combo").AddItem(new MenuItem("random2ejwej", "W->Q->R->Q2"));
 
@@ -105,9 +105,9 @@ namespace FuckingAwesomeLeeSin
 
             //Jung/Wave Clear
             var waveclearMenu = new Menu("娓呯嚎/娓呴噹", "wjClear");
-            waveclearMenu.AddItem(new MenuItem("useQClear", "浣跨敤 Q?").SetValue(true));
-            waveclearMenu.AddItem(new MenuItem("useWClear", "浣跨敤 W?").SetValue(true));
-            waveclearMenu.AddItem(new MenuItem("useEClear", "浣跨敤 E?").SetValue(true));
+            waveclearMenu.AddItem(new MenuItem("useQClear", "浣跨敤 Q").SetValue(true));
+            waveclearMenu.AddItem(new MenuItem("useWClear", "浣跨敤 W").SetValue(true));
+            waveclearMenu.AddItem(new MenuItem("useEClear", "浣跨敤 E").SetValue(true));
             Menu.AddSubMenu(waveclearMenu);
 
             //InsecMenu
@@ -115,22 +115,22 @@ namespace FuckingAwesomeLeeSin
             insecMenu.AddItem(new MenuItem("InsecEnabled", "鍥炴棆韪").SetValue(new KeyBind("Y".ToCharArray()[0], KeyBindType.Press)));
             insecMenu.AddItem(new MenuItem("rnshsasdhjk", "Insec 妯″紡:"));
             insecMenu.AddItem(new MenuItem("insecMode", "宸﹂敭鍗曞嚮[寮€鍚痌 TS[鍏抽棴]").SetValue(true));
-            insecMenu.AddItem(new MenuItem("insecOrbwalk", "璧扮爫?").SetValue(true));
-            insecMenu.AddItem(new MenuItem("flashInsec", "insec 闂幇?").SetValue(false));
-            insecMenu.AddItem(new MenuItem("waitForQBuff", "绛夊緟Q鍥炲?").SetValue(false));
+            insecMenu.AddItem(new MenuItem("insecOrbwalk", "浣跨敤璧扮爫").SetValue(true));
+            insecMenu.AddItem(new MenuItem("flashInsec", "R-浣跨敤闂幇 ").SetValue(false));
+            insecMenu.AddItem(new MenuItem("waitForQBuff", "绛夊緟Q鍥炲").SetValue(false));
             insecMenu.AddItem(new MenuItem("22222222222222", "(鏇村揩鏇村鐨勪激瀹硘)"));
-            insecMenu.AddItem(new MenuItem("insec2champs", "Insec 归槦鍙媩").SetValue(true));
-            insecMenu.AddItem(new MenuItem("bonusRangeA", "闃熷弸缁欎簣鑼冨洿").SetValue(new Slider(0, 0, 1000)));
-            insecMenu.AddItem(new MenuItem("insec2tower", "Insec 瑰?").SetValue(true));
-            insecMenu.AddItem(new MenuItem("bonusRangeT", "濉旂粰浜堣寖鍥磡e").SetValue(new Slider(0, 0, 1000)));
-            insecMenu.AddItem(new MenuItem("insec2orig", "Insec 鍘熷浣嶇疆?").SetValue(true));
+            insecMenu.AddItem(new MenuItem("insec2champs", "R鍚戦槦鍙媩").SetValue(true));
+            insecMenu.AddItem(new MenuItem("bonusRangeA", "R鍚戦槦鍙嬭寖鍥磡").SetValue(new Slider(0, 0, 1000)));
+            insecMenu.AddItem(new MenuItem("insec2tower", "R鍚戝 ").SetValue(true));
+            insecMenu.AddItem(new MenuItem("bonusRangeT", "R鍚戝鑼冨洿").SetValue(new Slider(0, 0, 1000)));
+            insecMenu.AddItem(new MenuItem("insec2orig", "R鍚戝師濮嬩綅缃畖 ").SetValue(true));
             insecMenu.AddItem(new MenuItem("22222222222", "--"));
-            insecMenu.AddItem(new MenuItem("instaFlashInsec1", "鎵嬪姩R婕斿憳"));
-            insecMenu.AddItem(new MenuItem("instaFlashInsec2", "闂幇鍥炴棆韪insec 浣嶇疆"));
+            insecMenu.AddItem(new MenuItem("instaFlashInsec1", "琛ㄦ紨鎵嬪姩R"));
+            insecMenu.AddItem(new MenuItem("instaFlashInsec2", "闂幇鍥炴棆韪鍘熷浣嶇疆"));
             insecMenu.AddItem(new MenuItem("instaFlashInsec", "闂幇鍥炴棆韪").SetValue(new KeyBind("P".ToCharArray()[0], KeyBindType.Toggle)));
             Menu.AddSubMenu(insecMenu);
 
-            var autoSmiteSettings = new Menu(" 鎯╂垝璁剧疆", "Auto Smite Settings");
+            var autoSmiteSettings = new Menu("鎯╂垝璁剧疆", "Auto Smite Settings");
             autoSmiteSettings.AddItem(new MenuItem("smiteEnabled", "浣跨敤鎯╂垝").SetValue(new KeyBind("M".ToCharArray()[0], KeyBindType.Toggle)));
             autoSmiteSettings.AddItem(new MenuItem("qqSmite", "Q->鎯╂垝->Q").SetValue(true));
             autoSmiteSettings.AddItem(new MenuItem("normSmite", "姝ｅ父鎯╂垝").SetValue(true));
@@ -169,9 +169,9 @@ namespace FuckingAwesomeLeeSin
 
             //Exploits
             var miscMenu = new Menu("鏉傞」璁剧疆", "Misc");
-            miscMenu.AddItem(new MenuItem("NFE", "浣跨敤灏佸寘?").SetValue(true));
+            miscMenu.AddItem(new MenuItem("NFE", "浣跨敤灏佸寘").SetValue(true));
             miscMenu.AddItem(new MenuItem("QHC", "Q 鍛戒腑鐜噟").SetValue(new StringList(new[] { "浣巪", "姝ｅ父", "楂榺" }, 1)));
-            miscMenu.AddItem(new MenuItem("IGNks", "浣跨敤鐐圭噧?").SetValue(true));
+            miscMenu.AddItem(new MenuItem("IGNks", "浣跨敤鐐圭噧").SetValue(true));
             miscMenu.AddItem(new MenuItem("qSmite", "鎯╂垝 Q!").SetValue(true));
             Menu.AddSubMenu(miscMenu);
             //Make the menu visible
