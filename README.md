@@ -12,6 +12,8 @@
 
 ☆ヾ  Marksman  by Kortatu and legacy  ADC合集
 
+☆ヾ  Pentakill Syndra by Verethragna        五杀辛德拉
+
 ☆ヾ  Ze-D is Back  by jackisback            劫
 
 ☆ヾ  JayceSharpV2  by DeTuKs                杰斯  
