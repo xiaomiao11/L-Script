@@ -10,7 +10,11 @@
 
 ☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
 
-☆ヾ  Marksman  by Kortatu and legacy  ADC合集
+☆ヾ  Marksman  by Kortatu and legacy        ADC合集
+
+☆ヾ  Orianna#  by  legacy                   最强发条
+
+☆ヾ  Leblanc  by  xQx                       妖姬
 
 ☆ヾ  Pentakill Syndra by Verethragna        五杀辛德拉
 
