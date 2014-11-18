@@ -59,3 +59,7 @@
 ¡î©d  VayneHunter 2.03 By DZ191              Þ±¶÷
 
 ¡î©d  SKO Rengar V2  by SKO                 Ê¨×Ó¹·
+
+¡î©d  D-Corki  by  diabaths                  ¿âÆæ
+
+¡î©d  FioraRaven   by  DZ191                 ½£¼§
