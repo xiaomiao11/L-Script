@@ -10,6 +10,8 @@
 
 ☆ヾ  MasterActivator  by  Crisdmc           活化剂（不完美）
 
+☆ヾ  GagongSyndra   by  Gagong              辛德拉（综合目前3个辛德拉所有优点，完美）
+
 ☆ヾ  Marksman  by Kortatu and legacy        ADC合集
 
 ☆ヾ  Orianna#  by  legacy                   最强发条
