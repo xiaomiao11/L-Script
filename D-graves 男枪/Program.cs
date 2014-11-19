@@ -63,7 +63,7 @@ namespace D_Graves
             _config.SubMenu("Combo").AddItem(new MenuItem("UseWC", "浣跨敤 W")).SetValue(true);
             _config.SubMenu("Combo").AddItem(new MenuItem("UseEC", "浣跨敤 E")).SetValue(true);
             _config.SubMenu("Combo")
-                .AddItem(new MenuItem("UseECR", "浣跨敤 E 鏁屾柟浣嶇疆>").SetValue(new Slider(700, 450, 1200)));
+                .AddItem(new MenuItem("UseECR", "鑷姩E|璺濈鏁屾柟鑼冨洿>").SetValue(new Slider(700, 450, 1200)));
             _config.SubMenu("Combo").AddItem(new MenuItem("UseRrush","濡傛灉缁勫悎杩炴嫑浼ゅ澶т簬鐩爣琛€閲忚繀閫烺")).SetValue(true);
             _config.SubMenu("Combo")
                 .AddItem(new MenuItem("autoattack", "鑷姩鏀诲嚮璁＄畻").SetValue(new Slider(3, 1, 6)));
