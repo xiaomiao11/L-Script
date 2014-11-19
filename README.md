@@ -64,4 +64,10 @@
 
 ¡î©d  D-Corki  by  diabaths                  ¿âÆæ
 
+¡î©d  D-Kayle   by  diabaths                 ÌìÊ¹
+
+¡î©d  D-graves   by  diabaths                ÄÐÇ¹
+
+¡î©d  D-Kogmaw   by  diabaths                ´ó×ì
+
 ¡î©d  FioraRaven   by  DZ191                 ½£¼§
