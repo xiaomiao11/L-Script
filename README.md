@@ -73,3 +73,5 @@
 ☆ヾ  FioraRaven   by  DZ191                 剑姬
 
 ☆ヾ  DZDraven Reloaded  by  DZ191          德莱文
+
+☆ヾ  Leesin                            盲僧（最强盲僧超快回踢）
